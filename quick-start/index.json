@@ -1,0 +1,21 @@
+{
+    "title": "使用 Rainbond 部署第一个应用程序",
+    "description": "欢迎来到 Rainbond! 本教程将指导你部署你的第一个应用。",
+    "details": {
+      "intro": {
+        "text": "intro.md"
+      },
+      "steps": [
+        {
+          "title": "安装",
+          "text": "step.md"
+        }
+      ],
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "backend": {
+      "imageid": "kubernetes-kubeadm-2nodes"
+    }
+}
