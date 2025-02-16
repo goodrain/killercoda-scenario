@@ -1,10 +1,10 @@
-## 一、安装 Rainbond
+### 一、安装 Rainbond
 
 使用以下命令安装 Rainbond
 
 Run `curl -o install.sh https://get.rainbond.com && export IMGHUB_MIRROR=rainbond && echo | bash ./install.sh`{{exec}}
 
-## 二、检查 Rainbond
+### 二、检查 Rainbond
 
 > killercoda 提供的环境只有 4GB 内存，也许要多等待几分钟
 
@@ -32,11 +32,11 @@ rbd-mq-6c88789769-97f64                   1/1     Running
 rbd-worker-676f8cc8b4-bzg6j               1/1     Running
 ```
 
-## 三、访问 Rainbond
+### 三、访问 Rainbond
 
 现在你就可以通过这个链接 [endpoint]({{TRAFFIC_HOST1_7070}}) 访问 Rainbond 页面了。
 
-## 四、配置 WebSocket
+### 四、配置 WebSocket
 
 [killercoda](https://github.com/killercoda/scenario-examples/blob/main/network-traffic/step1.md) 只允许通过端口转发的方式访问，所以需要修改 Rainbond 的 WebSocket 地址才能正常使用日志推送功能。
 

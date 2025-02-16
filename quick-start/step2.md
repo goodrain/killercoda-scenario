@@ -1,6 +1,6 @@
-## 一、部署第一个 Java 应用
+### 一、部署第一个 Java 应用
 
-### 创建组件
+#### 创建组件
 
 1.进入 **团队内 -> 新建应用**，会进入引导页面，在这里可以通过多种方式部署应用
 - 应用市场
@@ -16,7 +16,7 @@
 
 > killercoda 提供的环境资源过小，可能会影响到编译速度
 
-### 访问组件
+#### 访问组件
 
 > [killercoda](https://github.com/killercoda/scenario-examples/blob/main/network-traffic/step1.md) 只允许通过端口转发的方式访问，所以无法通过 Rainbond 提供的域名访问，需要通过 TCP 端口访问组件。
 
