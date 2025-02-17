@@ -41,3 +41,7 @@ rbd-worker-676f8cc8b4-bzg6j               1/1     Running
 [killercoda](https://github.com/killercoda/scenario-examples/blob/main/network-traffic/step1.md) 只允许通过端口转发的方式访问，所以需要修改 Rainbond 的 WebSocket 地址才能正常使用日志推送功能。
 
 进入 Rainbond 的 `平台管理 -> 集群 -> 编辑集群`，修改 WebSocket地址为 `wss://` ，请从这个链接 [endpoint]({{TRAFFIC_HOST1_6060}}) 中复制 URL （不带HTTPS）。
+
+
+> killercoda 提供的环境磁盘可使用仅有 15G 左右，因此需要清理掉安装后的镜像包。  
+> `rm -f /opt/rainbond/k3s/agent/images/rbd-images.tar`{{exec}}
